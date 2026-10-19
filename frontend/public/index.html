@@ -78,11 +78,12 @@
       </div>
       <nav class="nav" id="primary-nav" aria-label="Principal" aria-hidden="false">
         <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#padroes">Padrões</a>
-        <a href="#setores">Setores</a>
-        <a href="time.html">Time</a>
-        <a href="#contato">Contato</a>
+        <a href="#valores">Valores</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#padroes">Padrões internacionais</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#parcerias">Parcerias</a>
+        <a href="#projetos">Projetos</a>
       </nav>
       <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menu">
         <span></span>
@@ -93,15 +94,13 @@
     </header>
 
     <main id="top">
-      <section class="about" aria-label="DMS Desempenho Socioambiental">
+      <section class="about" id="sobre" aria-label="DMS Desempenho Socioambiental">
         <div class="container about-grid">
           <svg class="about-decor" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" focusable="false">
             <path class="about-decor-shape" d="M 530 0 C 492 120 548 230 518 360 C 492 480 500 640 530 760 C 548 850 510 930 526 1000 L 1000 1000 L 1000 0 Z" />
             <path class="about-decor-line" d="M 430 0 C 425 60 470 90 470 120 C 470 170 400 175 400 120 C 400 70 470 60 500 95 C 530 125 578.4 120 578.4 170 L 578.4 860 C 578.4 930 626 975 696 1000" />
-            <path class="about-decor-line" d="M 660 0 C 630 60 590 80 545 105 C 505 128 500 190 505 250" />
           </svg>
           <span class="about-decor-dot about-decor-dot--crossing" aria-hidden="true"></span>
-          <span class="about-decor-dot about-decor-dot--end" aria-hidden="true"></span>
           <div class="about-intro">
             <h1 class="about-title">Quem<br>somos?</h1>
             <div class="about-text">
@@ -158,11 +157,16 @@
         </aside>
       </section>
 
-      <section class="section values">
+      <section class="section values" id="valores">
+        <div class="section-line section-line--claro" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 696 0 C 744 90, 891 128, 914 232 C 934 322, 898 404, 909 506 C 922 616, 968 672, 964 782 C 960 886, 941 944, 937 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 90.7%; --line-y: 44.9%"></span>
+        </div>
         <div class="container values-grid">
           <div class="mission-panel">
             <article class="values-card">
-              <p class="eyebrow">Nossos valores</p>
               <h2>Conheça nossos valores</h2>
               <ul>
                 <li>
@@ -234,7 +238,13 @@
         </div>
       </section>
 
-      <section class="atua-section" id="sobre" aria-label="Nossa atuação">
+      <section class="atua-section" id="atuacao" aria-label="Nossa atuação">
+        <div class="section-line" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 937 0 C 941 72, 970 126, 970 214 C 970 318, 925 366, 927 462 C 928 562, 976 612, 973 712 C 970 816, 925 896, 915 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 96.8%; --line-y: 17.9%"></span>
+        </div>
         <svg class="atua-bg" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" focusable="false">
           <path class="atua-bg-light" d="M 520 0 L 1000 0 L 1000 900 C 940 960 820 930 740 860 C 690 815 650 770 640 700 C 628 620 620 580 600 540 C 560 470 500 420 510 300 C 518 200 505 90 520 0 Z" />
           <path class="atua-bg-accent" d="M 1000 500 C 950 580 890 650 920 740 C 945 810 960 860 1000 900 Z" />
@@ -281,6 +291,12 @@
       </section>
 
       <section class="standards" id="padroes">
+        <div class="section-line" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 915 0 C 909 68, 935 112, 951 186 C 968 268, 963 352, 935 428 C 906 508, 889 578, 905 662 C 921 744, 955 824, 953 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 94.2%; --line-y: 14.9%"></span>
+        </div>
         <svg class="standards-bg" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" focusable="false">
           <path d="M 0 170 C 90 140 200 150 300 200 C 420 260 560 280 630 350 C 680 400 580 430 480 470 C 420 500 450 700 410 820 C 385 900 360 960 350 1000 L 0 1000 Z" />
         </svg>
@@ -295,11 +311,11 @@
           <div class="standards-institutions">
             <p class="standards-institutions-label">Instituições com as quais a DMS possui alinhamento técnico e experiência de atuação:</p>
             <div class="institution-row" aria-label="Instituições de referência">
-              <img decoding="async" loading="lazy" src="assets_new/image15.png" width="779" height="163" alt="IFC" />
-              <img decoding="async" loading="lazy" src="assets/institutions/world-bank.svg" alt="Impact Fund Denmark" />
-              <img decoding="async" loading="lazy" src="assets_new/image18.png" width="2510" height="460" alt="IDB Invest" />
-              <img decoding="async" loading="lazy" src="assets/institutions/equator-principles.svg" alt="Equator Principles" />
-              <img decoding="async" loading="lazy" src="assets_new/image22.png" width="299" height="193" alt="European Bank for Reconstruction and Development" />
+              <img decoding="async" loading="lazy" src="assets/institutions/banco-mundial.jpg" width="1280" height="697" alt="Banco Mundial" />
+              <img decoding="async" loading="lazy" src="assets/institutions/ifc.jpg" width="738" height="312" alt="IFC — International Finance Corporation" />
+              <img decoding="async" loading="lazy" src="assets/institutions/bid.jpg" width="1233" height="527" alt="BID — Banco Interamericano de Desenvolvimento" />
+              <img decoding="async" loading="lazy" src="assets/institutions/principios-do-equador.jpg" width="1600" height="534" alt="Princípios do Equador" />
+              <img decoding="async" loading="lazy" src="assets/institutions/banco-europeu.jpg" width="1600" height="533" alt="Banco Europeu de Investimento" />
             </div>
           </div>
 
@@ -316,6 +332,12 @@
       </section>
 
       <section class="section ifc">
+        <div class="section-line" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 953 0 C 955 78, 981 128, 978 212 C 976 304, 931 350, 929 440 C 928 536, 971 586, 968 684 C 965 788, 927 886, 919 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 97.7%; --line-y: 16.9%"></span>
+        </div>
         <div class="container ifc-grid">
           <div class="section-title">
             <p class="eyebrow">Padrões de desempenho IFC</p>
@@ -482,7 +504,13 @@
         </div>
       </section>
 
-      <section class="section services" id="servicos">
+      <section class="section services" id="solucoes">
+        <div class="section-line" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 919 0 C 915 64, 940 106, 957 178 C 976 256, 973 342, 945 418 C 917 498, 899 568, 915 652 C 931 734, 965 816, 963 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 94.7%; --line-y: 14.1%"></span>
+        </div>
         <div class="container">
           <div class="section-title wide solutions-title">
             <p class="eyebrow">Nossas soluções</p>
@@ -558,274 +586,83 @@
         </div>
       </section>
 
-      <section class="section sectors" id="setores">
-        <svg class="sectors-bg" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-          <path class="sectors-bg-deep" d="M 0 520 C 110 470 230 500 300 590 C 370 680 360 800 440 880 C 490 930 520 970 540 1000 L 0 1000 Z" />
-          <path class="sectors-bg-light" d="M 1000 700 C 930 720 880 790 900 870 C 915 930 900 970 880 1000 L 1000 1000 Z" />
-        </svg>
-        <div class="container">
-          <div class="section-title wide">
-            <p class="eyebrow">Setores de atuação</p>
-            <h2>Nossos principais setores de atuação</h2>
-            <p class="sectors-lead">Atuamos em setores estratégicos da economia brasileira, apoiando projetos e clientes em contextos complexos, com foco na gestão de riscos socioambientais, atendimento a padrões internacionais e fortalecimento da viabilidade dos empreendimentos no território.</p>
-          </div>
 
-          <div class="sector-panel" data-sector-panel>
-            <div class="sector-fan" data-sector-fan>
-              <p class="sector-fan-label" aria-hidden="true" data-sector-label>Principais setores de atuação</p>
-
-              <div class="sector-wheel">
-                <div class="sector-wedges" role="list">
-                  <button type="button" class="sector-wedge sector-wedge--1" data-sector-target="mineracao" data-sector-name="Mineração" aria-expanded="false" aria-controls="sector-detail-mineracao">
-                    <span class="wedge-content">
-                      <span class="wedge-icon"><img src="assets/icons/setor-mineracao.svg" alt="" /></span>
-                      <span class="wedge-label">Mineração</span>
-                    </span>
-                  </button>
-                  <button type="button" class="sector-wedge sector-wedge--2" data-sector-target="papel-celulose" data-sector-name="Papel e Celulose" aria-expanded="false" aria-controls="sector-detail-papel-celulose">
-                    <span class="wedge-content">
-                      <span class="wedge-icon"><img src="assets/icons/setor-papel-celulose.svg" alt="" /></span>
-                      <span class="wedge-label">Papel e Celulose</span>
-                    </span>
-                  </button>
-                  <button type="button" class="sector-wedge sector-wedge--3" data-sector-target="energia-oleo-gas" data-sector-name="Energia e Óleo e Gás" aria-expanded="false" aria-controls="sector-detail-energia-oleo-gas">
-                    <span class="wedge-content">
-                      <span class="wedge-icon wedge-icon--dual">
-                        <img src="assets/icons/setor-energia-renovaveis.svg" alt="" />
-                        <img src="assets/icons/setor-oleo-gas.svg" alt="" />
-                      </span>
-                      <span class="wedge-label">Energia e Óleo e Gás</span>
-                    </span>
-                  </button>
-                  <button type="button" class="sector-wedge sector-wedge--4" data-sector-target="infraestrutura-mobilidade" data-sector-name="Infraestrutura e Mobilidade" aria-expanded="false" aria-controls="sector-detail-infraestrutura-mobilidade">
-                    <span class="wedge-content">
-                      <span class="wedge-icon"><img src="assets/icons/setor-infraestrutura-mobilidade.svg" alt="" /></span>
-                      <span class="wedge-label">Infraestrutura e Mobilidade</span>
-                    </span>
-                  </button>
-                </div>
-              </div>
-
-              <div class="sector-display" data-sector-display>
-                <div class="sector-display-intro" data-sector-intro>
-                  <p class="sector-fan-caption">Experiência transversal em setores e cadeias produtivas estratégicas</p>
-                  <div class="sector-fan-cta">
-                    <span class="sector-fan-arrow" aria-hidden="true">
-                      <svg viewBox="0 0 40 24" width="40" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M38 12H4M4 12L14 4M4 12L14 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </span>
-                    <p class="sector-fan-hint">Selecione um setor para ver os detalhes</p>
-                  </div>
-                </div>
-
-                <div class="sector-detail" data-sector-detail="mineracao" id="sector-detail-mineracao" hidden>
-                  <div class="sector-detail-head">
-                    <span class="sector-detail-icon sector-detail-icon--1"><img src="assets/icons/setor-mineracao.svg" alt="" /></span>
-                    <h3>Mineração</h3>
-                  </div>
-                  <div class="sector-detail-body">
-                    <div class="sector-detail-textbox">
-                    <ul class="sector-deliverables">
-                      <li>Plano de Ação de Reassentamento – PAR</li>
-                      <li>Framework de Reassentamento – FRAP</li>
-                      <li>Estudos Socioeconômicos e Territoriais</li>
-                      <li>Plano de Restauração dos Meios de Subsistência – PRMS</li>
-                      <li>Plano de Desenvolvimento Social – PDS</li>
-                      <li>Plano de Engajamento de Stakeholders – PES</li>
-                      <li>Políticas e Planos de Gestão Fundiária</li>
-                      <li>Plano de Gestão de Fornecedores</li>
-                      <li>Auditoria de Aquisição de Terras e Reassentamento baseada nos requisitos do Padrão de Desempenho 5 da IFC</li>
-                    </ul>
-                    </div>
-                    <div class="sector-clients">
-                      <p class="sector-clients-label">Clientes atendidos:</p>
-                      <div class="sector-logo-grid">
-                        <img src="assets/logos/mineracao/clientes/anglo-american.png" width="220" height="90" alt="Anglo American" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/clientes/bamin.png" width="154" height="47" alt="BAMIN" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/clientes/csn.png" width="161" height="82" alt="CSN" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/clientes/jacobina-mineracao.png" width="186" height="81" alt="Jacobina Mineração" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/clientes/lundin-mining.png" width="158" height="88" alt="Lundin Mining" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/clientes/pan-american-silver.png" width="188" height="80" alt="Pan American Silver Brasil" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/clientes/piaui-niquel.png" width="147" height="103" alt="Piauí Níquel Metais" loading="lazy" decoding="async" />
-                      </div>
-                      <p class="sector-partners-label">Em parceria com:</p>
-                      <div class="sector-partner-logos">
-                        <img src="assets/logos/mineracao/parceiros/arcadis.png" width="206" height="56" alt="Arcadis" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/parceiros/socionaut.png" width="213" height="62" alt="Socionaut" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/parceiros/sra.png" width="151" height="98" alt="SRA" loading="lazy" decoding="async" />
-                        <img src="assets/logos/mineracao/parceiros/tetra-tech.png" width="225" height="80" alt="Tetra Tech" loading="lazy" decoding="async" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sector-detail" data-sector-detail="papel-celulose" id="sector-detail-papel-celulose" hidden>
-                  <div class="sector-detail-head">
-                    <span class="sector-detail-icon sector-detail-icon--2"><img src="assets/icons/setor-papel-celulose.svg" alt="" /></span>
-                    <h3>Papel e Celulose</h3>
-                  </div>
-                  <div class="sector-detail-body">
-                    <div class="sector-detail-textbox">
-                    <ul class="sector-deliverables">
-                      <li>Due Diligence e Auditoria ESG</li>
-                      <li>Plano de Ação Ambiental e Social – ESAP</li>
-                      <li>Sistema de Gestão Ambiental e Social – ESMS</li>
-                      <li>Plano de Ação da Biodiversidade – BAP</li>
-                      <li>Avaliação de Serviços Ecossistêmicos</li>
-                      <li>Influxo Migratório de Trabalhadores</li>
-                      <li>Avaliação de Impactos Cumulativos – AIC</li>
-                      <li>Plano de Ação de Reassentamento – PAR</li>
-                      <li>Gestão de Reintegração de Posse</li>
-                      <li>Gestão de Famílias Deslocadas</li>
-                    </ul>
-                    </div>
-                    <div class="sector-clients">
-                      <p class="sector-clients-label">Clientes atendidos:</p>
-                      <div class="sector-logo-grid">
-                        <img src="assets/logos/papel-celulose/clientes/arauco.png" width="209" height="61" alt="Arauco" loading="lazy" decoding="async" />
-                        <img src="assets/logos/papel-celulose/clientes/ebcf.png" width="202" height="89" alt="EBCF" loading="lazy" decoding="async" />
-                        <img src="assets/logos/papel-celulose/clientes/klabin.png" width="156" height="116" alt="Klabin" loading="lazy" decoding="async" />
-                        <img src="assets/logos/papel-celulose/clientes/ld-celulose.png" width="180" height="54" alt="LD Celulose" loading="lazy" decoding="async" />
-                        <img src="assets/logos/papel-celulose/clientes/onf-international.png" width="218" height="120" alt="ONF International" loading="lazy" decoding="async" />
-                        <img src="assets/logos/papel-celulose/clientes/suzano.png" width="163" height="103" alt="Suzano" loading="lazy" decoding="async" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sector-detail" data-sector-detail="energia-oleo-gas" id="sector-detail-energia-oleo-gas" hidden>
-                  <div class="sector-detail-head">
-                    <span class="sector-detail-icon sector-detail-icon--3 sector-detail-icon--dual">
-                      <img src="assets/icons/setor-energia-renovaveis.svg" alt="" />
-                      <img src="assets/icons/setor-oleo-gas.svg" alt="" />
-                    </span>
-                    <h3>Energia e Óleo e Gás</h3>
-                  </div>
-                  <div class="sector-detail-body">
-                    <div class="sector-detail-textbox">
-                    <ul class="sector-deliverables">
-                      <li>Due Diligence e Auditoria ESG</li>
-                      <li>Due Diligence ESG – Projeto de Carbono</li>
-                      <li>Plano de Ação Ambiental e Social – ESAP</li>
-                      <li>Programas Básicos Ambientais – PBA</li>
-                      <li>Monitoramento Socioambiental</li>
-                      <li>Due Diligence de Direitos Humanos</li>
-                      <li>Políticas de Gestão Fundiária</li>
-                      <li>Plano de Conscientização Pública / ANP</li>
-                      <li>Programa de Enfrentamento de Violência e Assédio baseado no Gênero – GBVH</li>
-                      <li>Estudo de Comunidades Tradicionais</li>
-                    </ul>
-                    </div>
-                    <div class="sector-clients">
-                      <p class="sector-clients-label">Clientes atendidos:</p>
-                      <div class="sector-logo-grid">
-                        <img src="assets/logos/energia-oleo-gas/clientes/bmte.png" width="180" height="79" alt="BMTE" loading="lazy" decoding="async" />
-                        <img src="assets/logos/energia-oleo-gas/clientes/carmo-energy.png" width="189" height="95" alt="Carmo Energy" loading="lazy" decoding="async" />
-                        <img src="assets/logos/energia-oleo-gas/clientes/cobra-grupo.png" width="175" height="78" alt="Cobra Grupo" loading="lazy" decoding="async" />
-                        <img src="assets/logos/energia-oleo-gas/clientes/norte-energia.png" width="232" height="80" alt="Norte Energia" loading="lazy" decoding="async" />
-                        <img src="assets/logos/energia-oleo-gas/clientes/totalenergies.png" width="168" height="135" alt="TotalEnergies" loading="lazy" decoding="async" />
-                      </div>
-                      <p class="sector-partners-label">Em parceria com:</p>
-                      <div class="sector-partner-logos">
-                        <img src="assets/logos/energia-oleo-gas/parceiros/onf-international.png" width="218" height="120" alt="ONF International" loading="lazy" decoding="async" />
-                        <img src="assets/logos/energia-oleo-gas/parceiros/socionaut.png" width="213" height="62" alt="Socionaut" loading="lazy" decoding="async" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="sector-detail" data-sector-detail="infraestrutura-mobilidade" id="sector-detail-infraestrutura-mobilidade" hidden>
-                  <div class="sector-detail-head">
-                    <span class="sector-detail-icon sector-detail-icon--4"><img src="assets/icons/setor-infraestrutura-mobilidade.svg" alt="" /></span>
-                    <h3>Infraestrutura e Mobilidade</h3>
-                  </div>
-                  <div class="sector-detail-body">
-                    <div class="sector-detail-textbox">
-                    <ul class="sector-deliverables">
-                      <li>Auditoria de Aquisição de Terras e Reassentamento baseada nos requisitos do Padrão de Desempenho 5 da IFC</li>
-                      <li>Plano de Ação de Reassentamento – PAR</li>
-                      <li>Avaliação de Impacto do Reassentamento</li>
-                      <li>Diagnóstico Socioeconômico</li>
-                      <li>Plano de Engajamento de Stakeholders – PES</li>
-                      <li>Plano de Comunicação Social – PCS</li>
-                      <li>Plano de Gestão de Crise</li>
-                    </ul>
-                    </div>
-                    <div class="sector-clients">
-                      <p class="sector-clients-label">Clientes atendidos:</p>
-                      <div class="sector-logo-grid">
-                        <img src="assets/logos/infraestrutura-mobilidade/clientes/byd.png" width="155" height="50" alt="BYD" loading="lazy" decoding="async" />
-                        <img src="assets/logos/infraestrutura-mobilidade/clientes/ccr-metro.png" width="133" height="86" alt="CCR Metrô Bahia" loading="lazy" decoding="async" />
-                        <img src="assets/logos/infraestrutura-mobilidade/clientes/infra-sa.png" width="216" height="64" alt="Infra S.A." loading="lazy" decoding="async" />
-                        <img src="assets/logos/infraestrutura-mobilidade/clientes/skyrail-bahia.png" width="133" height="81" alt="Skyrail Bahia" loading="lazy" decoding="async" />
-                      </div>
-                      <p class="sector-partners-label">Em parceria com:</p>
-                      <div class="sector-partner-logos">
-                        <img src="assets/logos/infraestrutura-mobilidade/parceiros/arcadis.png" width="206" height="56" alt="Arcadis" loading="lazy" decoding="async" />
-                        <img src="assets/logos/infraestrutura-mobilidade/parceiros/ifc.png" width="160" height="82" alt="IFC" loading="lazy" decoding="async" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section class="section proof" id="parcerias">
+        <div class="section-line" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 963 0 C 965 76, 987 124, 981 206 C 976 294, 934 338, 932 428 C 931 524, 973 574, 970 672 C 967 776, 931 882, 925 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 98.2%; --line-y: 15.9%"></span>
         </div>
-      </section>
-
-      <section class="section proof">
         <div class="container proof-layout">
           <div class="proof-head">
             <div class="section-title wide">
               <p class="eyebrow">Parcerias estratégicas</p>
-              <h2>Nossos clientes e parceiros</h2>
+              <h2>Parceiros, Clientes e Projetos</h2>
             </div>
           </div>
           <div class="logo-cloud" aria-label="Clientes e parceiros">
-            <span class="logo-cloud-item" style="--ar:3.1833;--cx:0.0636;--cy:0.1667;--cw:0.8682;--ch:0.6667"><img src="assets/logos/mineracao/clientes/anglo-american.png" width="220" height="90" alt="Anglo American" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:5.28;--cx:0.0714;--cy:0.234;--cw:0.8571;--ch:0.5319"><img src="assets/logos/mineracao/clientes/bamin.png" width="154" height="47" alt="BAMIN" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.3167;--cx:0.0683;--cy:0.1341;--cw:0.8634;--ch:0.7317"><img src="assets/logos/mineracao/clientes/csn.png" width="161" height="82" alt="CSN" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.8909;--cx:0.0699;--cy:0.1605;--cw:0.8548;--ch:0.679"><img src="assets/logos/mineracao/clientes/jacobina-mineracao.png" width="186" height="81" alt="Jacobina Mineração" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.0606;--cx:0.0696;--cy:0.125;--cw:0.8608;--ch:0.75"><img src="assets/logos/mineracao/clientes/lundin-mining.png" width="158" height="88" alt="Lundin Mining" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:3;--cx:0.0691;--cy:0.1625;--cw:0.8617;--ch:0.675"><img src="assets/logos/mineracao/clientes/pan-american-silver.png" width="188" height="80" alt="Pan American Silver Brasil" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.5679;--cx:0.068;--cy:0.1165;--cw:0.8639;--ch:0.7864"><img src="assets/logos/mineracao/clientes/piaui-niquel.png" width="147" height="103" alt="Piauí Níquel Metais" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:6.3929;--cx:0.068;--cy:0.25;--cw:0.8689;--ch:0.5"><img src="assets/logos/mineracao/parceiros/arcadis.png" width="206" height="56" alt="Arcadis" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:5.9677;--cx:0.0704;--cy:0.2581;--cw:0.8685;--ch:0.5"><img src="assets/logos/mineracao/parceiros/socionaut.png" width="213" height="62" alt="Socionaut" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.7013;--cx:0.0662;--cy:0.102;--cw:0.8675;--ch:0.7857"><img src="assets/logos/mineracao/parceiros/sra.png" width="151" height="98" alt="SRA" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:4.1042;--cx:0.0667;--cy:0.2;--cw:0.8756;--ch:0.6"><img src="assets/logos/mineracao/parceiros/tetra-tech.png" width="225" height="80" alt="Tetra Tech" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:6.0667;--cx:0.067;--cy:0.2459;--cw:0.8708;--ch:0.4918"><img src="assets/logos/papel-celulose/clientes/arauco.png" width="209" height="61" alt="Arauco" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.8226;--cx:0.0693;--cy:0.1573;--cw:0.8663;--ch:0.6966"><img src="assets/logos/papel-celulose/clientes/ebcf.png" width="202" height="89" alt="EBCF" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.4255;--cx:0.0705;--cy:0.0948;--cw:0.859;--ch:0.8103"><img src="assets/logos/papel-celulose/clientes/klabin.png" width="156" height="116" alt="Klabin" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:5.2;--cx:0.0667;--cy:0.2222;--cw:0.8667;--ch:0.5556"><img src="assets/logos/papel-celulose/clientes/ld-celulose.png" width="180" height="54" alt="LD Celulose" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.0538;--cx:0.0642;--cy:0.1167;--cw:0.8761;--ch:0.775"><img src="assets/logos/papel-celulose/clientes/onf-international.png" width="218" height="120" alt="ONF International" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.7625;--cx:0.0675;--cy:0.1165;--cw:0.865;--ch:0.7767"><img src="assets/logos/papel-celulose/clientes/suzano.png" width="163" height="103" alt="Suzano" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.8182;--cx:0.0722;--cy:0.1519;--cw:0.8611;--ch:0.6962"><img src="assets/logos/energia-oleo-gas/clientes/bmte.png" width="180" height="79" alt="BMTE" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.3623;--cx:0.0688;--cy:0.1368;--cw:0.8624;--ch:0.7263"><img src="assets/logos/energia-oleo-gas/clientes/carmo-energy.png" width="189" height="95" alt="Carmo Energy" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.7963;--cx:0.0686;--cy:0.1538;--cw:0.8629;--ch:0.6923"><img src="assets/logos/energia-oleo-gas/clientes/cobra-grupo.png" width="175" height="78" alt="Cobra Grupo" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.725;--cx:0;--cy:0;--cw:0.9397;--ch:1"><img src="assets/logos/energia-oleo-gas/clientes/norte-energia.png" width="232" height="80" alt="Norte Energia" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.2231;--cx:0.0357;--cy:0.037;--cw:0.9464;--ch:0.963"><img src="assets/logos/energia-oleo-gas/clientes/totalenergies.png" width="168" height="135" alt="TotalEnergies" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:4.75;--cx:0.071;--cy:0.22;--cw:0.8581;--ch:0.56"><img src="assets/logos/infraestrutura-mobilidade/clientes/byd.png" width="155" height="50" alt="BYD" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.6912;--cx:0.0677;--cy:0.1047;--cw:0.8647;--ch:0.7907"><img src="assets/logos/infraestrutura-mobilidade/clientes/ccr-metro.png" width="133" height="86" alt="CCR Metrô Bahia" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:5.5294;--cx:0.0648;--cy:0.2344;--cw:0.8704;--ch:0.5313"><img src="assets/logos/infraestrutura-mobilidade/clientes/infra-sa.png" width="216" height="64" alt="Infra S.A." loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.8254;--cx:0.0677;--cy:0.1111;--cw:0.8647;--ch:0.7778"><img src="assets/logos/infraestrutura-mobilidade/clientes/skyrail-bahia.png" width="133" height="81" alt="Skyrail Bahia" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.339;--cx:0.0688;--cy:0.1341;--cw:0.8625;--ch:0.7195"><img src="assets/logos/infraestrutura-mobilidade/parceiros/ifc.png" width="160" height="82" alt="IFC" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.2958;--cx:0.0688;--cy:0.134;--cw:0.8624;--ch:0.732"><img src="assets/logos/geral/afd.png" width="189" height="97" alt="AFD" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:4.0909;--cx:0.0696;--cy:0.2;--cw:0.8544;--ch:0.6"><img src="assets/logos/geral/biomas.png" width="158" height="55" alt="Biomas" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:3.6042;--cx:0.0697;--cy:0.1842;--cw:0.8607;--ch:0.6316"><img src="assets/logos/geral/cagece.png" width="201" height="76" alt="Cagece" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:1.3191;--cx:0.0694;--cy:0.0877;--cw:0.8611;--ch:0.8246"><img src="assets/logos/geral/fmo.png" width="144" height="114" alt="FMO" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.6389;--cx:0.0645;--cy:0.1386;--cw:0.8756;--ch:0.7129"><img src="assets/logos/geral/fundacao-butantan.png" width="217" height="101" alt="Fundação Butantan" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.4839;--cx:0.0674;--cy:0.1395;--cw:0.8652;--ch:0.7209"><img src="assets/logos/geral/idb-invest.png" width="178" height="86" alt="IDB Invest" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:2.9556;--cx:0.071;--cy:0.1642;--cw:0.8581;--ch:0.6716"><img src="assets/logos/geral/impact-fund-denmark.png" width="155" height="67" alt="Impact Fund Denmark" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:3.6875;--cx:0.0686;--cy:0.1842;--cw:0.8676;--ch:0.6316"><img src="assets/logos/geral/insuco.png" width="204" height="76" alt="Insuco" loading="lazy" decoding="async" /></span>
-            <span class="logo-cloud-item" style="--ar:4.15;--cx:0.0677;--cy:0.197;--cw:0.8646;--ch:0.6061"><img src="assets/logos/geral/veolia.png" width="192" height="66" alt="Veolia" loading="lazy" decoding="async" /></span>
+            <div class="logo-cloud-row" data-colunas="5">
+              <span class="logo-cloud-item" style="--ar:2.339;--cx:0.0688;--cy:0.1341;--cw:0.8625;--ch:0.7195"><img src="assets/logos/infraestrutura-mobilidade/parceiros/ifc.png" width="160" height="82" alt="IFC" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.4839;--cx:0.0674;--cy:0.1395;--cw:0.8652;--ch:0.7209"><img src="assets/logos/geral/idb-invest.png" width="178" height="86" alt="IDB Invest" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:1.3191;--cx:0.0694;--cy:0.0877;--cw:0.8611;--ch:0.8246"><img src="assets/logos/geral/fmo.png" width="144" height="114" alt="FMO" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.9556;--cx:0.071;--cy:0.1642;--cw:0.8581;--ch:0.6716"><img src="assets/logos/geral/impact-fund-denmark.png" width="155" height="67" alt="Impact Fund Denmark" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.2958;--cx:0.0688;--cy:0.134;--cw:0.8624;--ch:0.732"><img src="assets/logos/geral/afd.png" width="189" height="97" alt="AFD" loading="lazy" decoding="async" /></span>
+            </div>
+            <div class="logo-cloud-row" data-colunas="7">
+              <span class="logo-cloud-item" style="--ar:1.7013;--cx:0.0662;--cy:0.102;--cw:0.8675;--ch:0.7857"><img src="assets/logos/mineracao/parceiros/sra.png" width="151" height="98" alt="SRA" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:5.9677;--cx:0.0704;--cy:0.2581;--cw:0.8685;--ch:0.5"><img src="assets/logos/mineracao/parceiros/socionaut.png" width="213" height="62" alt="Socionaut" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:6.3929;--cx:0.068;--cy:0.25;--cw:0.8689;--ch:0.5"><img src="assets/logos/mineracao/parceiros/arcadis.png" width="206" height="56" alt="Arcadis" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.0538;--cx:0.0642;--cy:0.1167;--cw:0.8761;--ch:0.775"><img src="assets/logos/papel-celulose/clientes/onf-international.png" width="218" height="120" alt="ONF International" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:3.6875;--cx:0.0686;--cy:0.1842;--cw:0.8676;--ch:0.6316"><img src="assets/logos/geral/insuco.png" width="204" height="76" alt="Insuco" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:4.15;--cx:0.0677;--cy:0.197;--cw:0.8646;--ch:0.6061"><img src="assets/logos/geral/veolia.png" width="192" height="66" alt="Veolia" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:4.1042;--cx:0.0667;--cy:0.2;--cw:0.8756;--ch:0.6"><img src="assets/logos/mineracao/parceiros/tetra-tech.png" width="225" height="80" alt="Tetra Tech" loading="lazy" decoding="async" /></span>
+            </div>
+            <div class="logo-cloud-row" data-colunas="8">
+              <span class="logo-cloud-item" style="--ar:3;--cx:0.1064;--cy:0.3869;--cw:0.7872;--ch:0.2701"><img src="assets/logos/mineracao/clientes/brazilian-nickel.png" width="141" height="137" alt="Brazilian Nickel" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:1.5679;--cx:0.068;--cy:0.1165;--cw:0.8639;--ch:0.7864"><img src="assets/logos/mineracao/clientes/piaui-niquel.png" width="147" height="103" alt="Piauí Níquel Metais" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-stack">
+                <span class="logo-cloud-item" style="--ar:2.8909;--cx:0.0699;--cy:0.1605;--cw:0.8548;--ch:0.679"><img src="assets/logos/mineracao/clientes/jacobina-mineracao.png" width="186" height="81" alt="Jacobina Mineração" loading="lazy" decoding="async" /></span>
+                <span class="logo-cloud-item" style="--ar:3;--cx:0.0691;--cy:0.1625;--cw:0.8617;--ch:0.675"><img src="assets/logos/mineracao/clientes/pan-american-silver.png" width="188" height="80" alt="Pan American Silver Brasil" loading="lazy" decoding="async" /></span>
+              </span>
+              <span class="logo-cloud-item" style="--ar:3.1833;--cx:0.0636;--cy:0.1667;--cw:0.8682;--ch:0.6667"><img src="assets/logos/mineracao/clientes/anglo-american.png" width="220" height="90" alt="Anglo American" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.0606;--cx:0.0696;--cy:0.125;--cw:0.8608;--ch:0.75"><img src="assets/logos/mineracao/clientes/lundin-mining.png" width="158" height="88" alt="Lundin Mining" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:5.28;--cx:0.0714;--cy:0.234;--cw:0.8571;--ch:0.5319"><img src="assets/logos/mineracao/clientes/bamin.png" width="154" height="47" alt="BAMIN" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:5;--cx:0;--cy:0;--cw:1;--ch:1"><img src="assets/logos/mineracao/clientes/samarco.png" width="155" height="31" alt="Samarco" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:1.7143;--cx:0;--cy:0;--cw:1;--ch:0.9492"><img src="assets/logos/mineracao/clientes/aura.jpg" width="96" height="59" alt="Aura 360° Mining" loading="lazy" decoding="async" /></span>
+            </div>
+            <div class="logo-cloud-row" data-colunas="7">
+              <span class="logo-cloud-item" style="--ar:1.7625;--cx:0.0675;--cy:0.1165;--cw:0.865;--ch:0.7767"><img src="assets/logos/papel-celulose/clientes/suzano.png" width="163" height="103" alt="Suzano" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:6.0667;--cx:0.067;--cy:0.2459;--cw:0.8708;--ch:0.4918"><img src="assets/logos/papel-celulose/clientes/arauco.png" width="209" height="61" alt="Arauco" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:5.2;--cx:0.0667;--cy:0.2222;--cw:0.8667;--ch:0.5556"><img src="assets/logos/papel-celulose/clientes/ld-celulose.png" width="180" height="54" alt="LD Celulose" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:1.4255;--cx:0.0705;--cy:0.0948;--cw:0.859;--ch:0.8103"><img src="assets/logos/papel-celulose/clientes/klabin.png" width="156" height="116" alt="Klabin" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:4.0909;--cx:0.0696;--cy:0.2;--cw:0.8544;--ch:0.6"><img src="assets/logos/geral/biomas.png" width="158" height="55" alt="Biomas" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.8226;--cx:0.0693;--cy:0.1573;--cw:0.8663;--ch:0.6966"><img src="assets/logos/papel-celulose/clientes/ebcf.png" width="202" height="89" alt="EBCF" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.8182;--cx:0.0722;--cy:0.1519;--cw:0.8611;--ch:0.6962"><img src="assets/logos/energia-oleo-gas/clientes/bmte.png" width="180" height="79" alt="BMTE" loading="lazy" decoding="async" /></span>
+            </div>
+            <div class="logo-cloud-row" data-colunas="7">
+              <span class="logo-cloud-item" style="--ar:2.6389;--cx:0.0645;--cy:0.1386;--cw:0.8756;--ch:0.7129"><img src="assets/logos/geral/fundacao-butantan.png" width="217" height="101" alt="Fundação Butantan" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:3.6042;--cx:0.0697;--cy:0.1842;--cw:0.8607;--ch:0.6316"><img src="assets/logos/geral/cagece.png" width="201" height="76" alt="Cagece" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:5.5294;--cx:0.0648;--cy:0.2344;--cw:0.8704;--ch:0.5313"><img src="assets/logos/infraestrutura-mobilidade/clientes/infra-sa.png" width="216" height="64" alt="Infra S.A." loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.3623;--cx:0.0688;--cy:0.1368;--cw:0.8624;--ch:0.7263"><img src="assets/logos/energia-oleo-gas/clientes/carmo-energy.png" width="189" height="95" alt="Carmo Energy" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:2.7963;--cx:0.0686;--cy:0.1538;--cw:0.8629;--ch:0.6923"><img src="assets/logos/energia-oleo-gas/clientes/cobra-grupo.png" width="175" height="78" alt="Cobra Grupo" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:1.8254;--cx:0.0677;--cy:0.1111;--cw:0.8647;--ch:0.7778"><img src="assets/logos/infraestrutura-mobilidade/clientes/skyrail-bahia.png" width="133" height="81" alt="Skyrail Bahia" loading="lazy" decoding="async" /></span>
+              <span class="logo-cloud-item" style="--ar:1.6912;--cx:0.0677;--cy:0.1047;--cw:0.8647;--ch:0.7907"><img src="assets/logos/infraestrutura-mobilidade/clientes/ccr-metro.png" width="133" height="86" alt="CCR Metrô Bahia" loading="lazy" decoding="async" /></span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section projects">
+      <section class="section projects" id="projetos">
+        <div class="section-line section-line--claro" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 925 0 C 921 66, 945 108, 963 182 C 981 262, 978 348, 951 424 C 922 504, 905 574, 921 658 C 937 740, 971 822, 968 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 95.5%; --line-y: 15.1%"></span>
+        </div>
         <svg class="projects-bg" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-          <path d="M 1000 0 L 1000 420 C 930 470 850 440 800 360 C 750 280 690 250 640 170 C 600 100 620 40 650 0 Z" />
+          <path class="projects-bg-deep" d="M 0 520 C 110 470 230 500 300 590 C 370 680 360 800 440 880 C 490 930 520 970 540 1000 L 0 1000 Z" />
+          <path class="projects-bg-light" d="M 1000 700 C 930 720 880 790 900 870 C 915 930 900 970 880 1000 L 1000 1000 Z" />
         </svg>
         <div class="container projects-layout">
           <div class="section-title projects-head">
@@ -888,21 +725,65 @@
               </div>
             </div>
           </article>
-          <article class="project-card">
+          <article class="project-card project-card--series">
             <div class="project-video">
-              <button class="project-play" type="button" data-video-id="LBVEN7GsmAE" aria-label="Assistir ao vídeo: Projeto Piauí Níquel">
-                <img src="https://i.ytimg.com/vi/LBVEN7GsmAE/maxresdefault.jpg" alt="" loading="lazy" decoding="async" />
+              <button class="project-play" type="button" data-video-id="MGNrGWndvmU" aria-label="Assistir ao vídeo: DMS Insights 01 — Sobre a DMS">
+                <img src="https://i.ytimg.com/vi/MGNrGWndvmU/maxresdefault.jpg" alt="" loading="lazy" decoding="async" />
                 <span class="project-play-icon" aria-hidden="true">
                   <svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z" /></svg>
                 </span>
               </button>
             </div>
             <div class="project-body">
-              <h3>Projeto Piauí Níquel</h3>
-              <p>Conheça a atuação da DMS no Projeto Piauí Níquel.</p>
+              <h3>Série #DMSInsights</h3>
+              <p>Episódios sobre engajamento de stakeholders e as etapas de acesso a terras e reassentamento. Escolha um para assistir aqui.</p>
+              <ol class="project-series">
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="MGNrGWndvmU" aria-label="Assistir ao episódio 01: Sobre a DMS">
+                      <span class="project-episode-number">01</span>
+                      <span class="project-episode-title">Sobre a DMS</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="4ZJehpcsSKY" aria-label="Assistir ao episódio 02: Negociação coletiva">
+                      <span class="project-episode-number">02</span>
+                      <span class="project-episode-title">Negociação coletiva</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="HZBLLI6KX94" aria-label="Assistir ao episódio 03: Engajamento de stakeholders">
+                      <span class="project-episode-number">03</span>
+                      <span class="project-episode-title">Engajamento de stakeholders</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="u4OrolAKb5M" aria-label="Assistir ao episódio 04: Acesso a terras e reassentamento — Etapa 1: Cadastro socioeconômico">
+                      <span class="project-episode-number">04</span>
+                      <span class="project-episode-title">Acesso a terras e reassentamento — Etapa 1: Cadastro socioeconômico</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="lUtQL_ZskWo" aria-label="Assistir ao episódio 05: Acesso a terras e reassentamento — Etapa 2: Cadastro patrimonial">
+                      <span class="project-episode-number">05</span>
+                      <span class="project-episode-title">Acesso a terras e reassentamento — Etapa 2: Cadastro patrimonial</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="i_E9KgEx72c" aria-label="Assistir ao episódio 06: Acesso a terras e reassentamento — Etapa 3: Diagnóstico socioeconômico">
+                      <span class="project-episode-number">06</span>
+                      <span class="project-episode-title">Acesso a terras e reassentamento — Etapa 3: Diagnóstico socioeconômico</span>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="project-episode" type="button" data-video-id="CIBZnoiqz3g" aria-label="Assistir ao episódio 07: Acesso a terras e reassentamento — Etapa 4: Marco de compensação">
+                      <span class="project-episode-number">07</span>
+                      <span class="project-episode-title">Acesso a terras e reassentamento — Etapa 4: Marco de compensação</span>
+                    </button>
+                  </li>
+              </ol>
               <div class="project-qr">
-                <img src="assets/experiences/qrcodes/piaui-niquel.png" width="538" height="538" alt="QR Code do vídeo Projeto Piauí Níquel" loading="lazy" decoding="async" />
-                <span>Escaneie para assistir no celular</span>
+                <img src="assets/experiences/qrcodes/dms-insights.png" width="538" height="538" alt="QR Code da série #DMSInsights no YouTube" loading="lazy" decoding="async" />
+                <span>Escaneie para ver a série completa</span>
               </div>
             </div>
           </article>
@@ -911,6 +792,12 @@
       </section>
 
       <section class="cta" id="contato">
+        <div class="section-line section-line--claro" aria-hidden="true">
+          <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" focusable="false">
+            <path class="about-decor-line" d="M 968 0 C 971 80, 991 130, 986 214 C 980 302, 941 348, 940 438 C 938 534, 977 586, 973 684 C 968 788, 937 892, 931 1000" />
+          </svg>
+          <span class="section-line-dot" style="--line-x: 98.7%; --line-y: 18.1%"></span>
+        </div>
         <svg class="cta-bg" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true" focusable="false">
           <path class="cta-bg-shape" d="M 0 560 C 120 520 260 560 330 660 C 400 760 380 880 450 1000 L 0 1000 Z" />
           <path class="cta-bg-accent" d="M 1000 0 L 1000 260 C 940 300 860 280 820 210 C 780 140 800 60 760 0 Z" />
@@ -998,10 +885,12 @@
           <p class="footer-heading">Navegação</p>
           <ul>
             <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#padroes">Padrões</a></li>
-            <li><a href="#setores">Setores</a></li>
-            <li><a href="time.html">Time</a></li>
+            <li><a href="#valores">Valores</a></li>
+            <li><a href="#atuacao">Atuação</a></li>
+            <li><a href="#padroes">Padrões internacionais</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#parcerias">Parcerias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>

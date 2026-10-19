@@ -30,7 +30,7 @@ O frontend chama a API por HTTP; o endereço da API fica em [`frontend/public/js
 │       ├── js/
 │       │   ├── main.js         # ponto de entrada: inicializa os módulos
 │       │   ├── config.js       # URL da API
-│       │   ├── modules/        # header, reveal, soluções, vídeos, formulário, setores, rodapé
+│       │   ├── modules/        # header, reveal, soluções, vídeos, cards IFC, formulário, rodapé
 │       │   └── utils/
 │       ├── assets/, assets_new/
 │       └── .htaccess, CNAME, robots.txt, sitemap.xml

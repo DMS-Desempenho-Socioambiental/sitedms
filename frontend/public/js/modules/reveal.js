@@ -11,7 +11,6 @@ const REVEAL_SELECTORS = [
   ".standards-benefits",
   ".mosaic-stage",
   ".pd-grid article",
-  ".sector-panel",
   ".proof-head p",
   ".logo-cloud img",
   ".projects-head",
